@@ -6,7 +6,9 @@ namespace MyGame
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello LP1!");
+            // Aceitar o número de inimigos na linha de comandos
+            int emy = Convert.ToInt32(args[0]);
+            
         }
     }
 }

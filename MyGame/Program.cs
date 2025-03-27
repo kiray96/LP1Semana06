@@ -23,6 +23,13 @@ namespace MyGame
                 enemies[e] = new Enemy(name);
             }
 
+            // Testar os metodos PickupPowerup e Take Damage
+            enemies[0].PickupPowerUp(PowerUp.Shield, 60);
+            enemies[0].TakeDamage(40f);
+            enemies[1].TakeDamage(50f);
+            enemies[1].PickupPowerUp(PowerUp.Health, 10);
+
+
             // Imprimir informação sobre todos os inimigos
             foreach ( Enemy ini in enemies)
             {

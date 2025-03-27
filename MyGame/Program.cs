@@ -22,6 +22,13 @@ namespace MyGame
                 // Preencher o array de enemies
                 enemies[e] = new Enemy(name);
             }
+
+            // Imprimir informação sobre todos os inimigos
+            foreach ( Enemy ini in enemies)
+            {
+                Console.WriteLine(
+                    $"{ini.GetName()} {ini.GetHealth()} {ini.GetShield()}");
+            }
            
             
         }

@@ -36,6 +36,8 @@ namespace MyGame
                 Console.WriteLine(
                     $"{ini.GetName()} {ini.GetHealth()} {ini.GetShield()}");
             }
+
+            Console.WriteLine(Enemy.GetCountPowerUps());
            
             
         }
